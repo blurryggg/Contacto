@@ -20,19 +20,21 @@ header{
 main{
     background-color: rgb(226, 226, 228);
     float: left;
-    margin-right: 5.2%;
+    margin-right: 5%;
     padding-left: 1%;
     max-height: 60%;
     max-width: 60%;
     padding-bottom: 1em;
 }
 div.aligner{
-    background-color: rgb(10, 77, 85);
+    background-color: #a2a2a2;
     padding-top: 0.1%;
-    float: left;
-    max-height: 45%;
+    padding-right: 0.6%;
+    padding-left: 0.6%;
+    float:left;
+    max-height: 40%;
     max-width: 100%;
-
+ 
 }
 nav{
     float: left;
@@ -41,7 +43,6 @@ nav{
     max-width: 55%;
 }
 a{
-    margin-left: 2%;
     float: left;
 }
 nav.p{
