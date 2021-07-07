@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    background-color: rgb(51, 58, 71);
+}
+div.container{
+    margin-right: 10%;
+    margin-left: 10%;
+    max-width: 80%;
+    height: 100%;
+  
+}
+header{
+    background-color: red;
+    text-align: center;
+    max-height: 10%;
+    max-width: 100%;
+   padding-top: 0.01%;
+   padding-bottom: 0.01%;
+}
+main{
+    background-color: rgb(226, 226, 228);
+    float: left;
+    margin-right: 5.2%;
+    padding-left: 1%;
+    max-height: 60%;
+    max-width: 60%;
+    padding-bottom: 1em;
+}
+div.aligner{
+    background-color: rgb(10, 77, 85);
+    padding-top: 0.1%;
+    float: left;
+    max-height: 45%;
+    max-width: 100%;
+
+}
+nav{
+    float: left;
+    margin-left: 0.5%;
+    max-height: 45%;
+    max-width: 55%;
+}
+a{
+    margin-left: 2%;
+    float: left;
+}
+nav.p{
+    float: left;
+}
+img{
+    padding-bottom: 6%;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    max-height: 10%;
+    width: 100%;
+    border-style:groove;
+}
+
+@media screen and ( max-width: 800px ) {
+    div.container{
+        margin-right: 0%;
+    margin-left: 0%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    header{
+        min-width: 100%;
+        min-height: 100%;
+    }
+    main{
+        min-width: 100%;
+        min-height: 100%;
+    }
+    div.aligner{
+        min-width: 100%;
+        min-height: 100%;
+    }
+   
+}
+@media screen and (max-width:1360px) {
+    main{
+        float: none;
+        max-width: 100%;
+
+        width: 100%;
+    }
+    div.aligner{
+        float: none;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+}
